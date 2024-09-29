@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.mainContianer{
+    margin: 0 auto; 
+    display: block;
+    max-width: 600px;
+    background-color: #EEEEEE;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {    
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.holder{
+    display:block; 
+    text-align: left;
+    margin: 2vh 0vw 1vh 3vw;
+}
+
+.holder label{
+    text-align: left;
+}
+
+.heading{
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],input[type="tel"],input[type="email"],input[type="file"]
+, textarea{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+#buttonContainer{
+    display: flex;
+    justify-content: center; /* Align items to the right */
+    
+
+}
+
+#button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+#button:hover{
+    background-color: #45a049;
+}
+
+
+
+th {
+    background-color: #eee545;
+    color: black;
+    box-shadow: 0 0 10px rgba(58, 240, 13, 0.1);
+    
+}
+
+th, td {
+    border: none;
+    padding: 10px 10px;
+    
+}
+
+td {
+    background-color: white;
+    border-bottom: solid 1px #222;
+}
+
+#tableContainer {
+    overflow-y: scroll;
+}
+
+#applicationTable {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow-y: auto;
+    border-collapse: collapse;
+}
